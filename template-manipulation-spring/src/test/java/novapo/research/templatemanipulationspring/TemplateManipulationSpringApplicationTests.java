@@ -16,9 +16,14 @@ class TemplateManipulationSpringApplicationTests {
 	}
 
 	@Test
-	void editTemplate() {
+	void editTextbox() {
 		System.out.println("hello \u27A2");
-		kickoffTemplateService.editTemplate();
+		kickoffTemplateService.editTextbox();
+	}
+
+	@Test
+	void editTable() {
+		kickoffTemplateService.editTable();
 	}
 
 }
